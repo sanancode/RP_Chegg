@@ -1,0 +1,32 @@
+.button {
+  background-color: #eb7100;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  padding: 0 15px;
+}
+
+.button a {
+  color: #fff;
+}
+
+.button:hover {
+  /* height: 41px; */
+  background-color: #c86100;
+  transition: 0.15s;
+}
+
+.button_learnmore {
+  font-weight: bold;
+}
+
+.button_learnmore::after {
+  content: " \2192";
+}
+
+.button_learnmore a:hover {
+  text-decoration: underline;
+}

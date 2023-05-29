@@ -1,0 +1,164 @@
+/* #region credentials and footer nav */
+#main-footer {
+  width: 80%;
+  margin: 20px 10%;
+  position: relative;
+}
+
+#credentials {
+  font-size: x-small;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 70px;
+}
+
+#footer-nav {
+  padding-left: 5%;
+}
+
+#footer-nav li {
+  display: block;
+  font-size: small;
+  margin-top: 7px;
+}
+
+#footer-nav li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#footer-nav caption {
+  font-size: 22px;
+}
+
+#fn__productsandservices {
+  width: max-content;
+  display: inline-block;
+}
+
+#fn__after-productsandservices__noname {
+  width: max-content;
+  display: inline-block;
+}
+
+#fn__company {
+  width: max-content;
+  display: inline-block;
+}
+
+#fn__network {
+  width: max-content;
+  display: inline-block;
+}
+
+#fn__customerservice {
+  width: max-content;
+  display: inline-block;
+}
+
+fn__productsandservices,
+#fn__company,
+#fn__after-productsandservices__noname,
+#fn__company,
+#fn__network,
+#fn__customerservice {
+  vertical-align: top;
+  margin: 0 4%;
+}
+
+#fn-cs-educators-cap {
+  margin-top: 20px;
+}
+/* #endregion */
+
+/* #region appliactions nav */
+#footer-app-nav {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#footer-app-nav .app-logos {
+  display: inline-block;
+  margin-left: 3%;
+}
+
+#footer-app-nav .app-logos i {
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+#footer-app-nav .app-logos i:hover {
+  cursor: pointer;
+}
+
+#footer-app-nav .app-logos .fa-facebook:hover {
+  color: rgb(59, 127, 210);
+}
+
+#footer-app-nav .app-logos .fa-twitter:hover {
+  color: aqua;
+}
+
+#footer-app-nav .app-logos .fa-instagram:hover {
+  color: transparent;
+  background: none;
+  background-clip: text;
+  color: #fff;
+  border-radius: 5px 5px 10px 10px;
+  background-image: linear-gradient(to top right, yellow, orange, red);
+}
+
+.download-link {
+  display: inline-block;
+  float: right;
+  color: black;
+}
+
+.download-link a {
+  color: -webkit-link;
+}
+
+/* #endregion */
+
+/* #region rights-and-policies */
+#rights-and-policies {
+  font-size: 12px;
+  position: relative;
+  margin-top: 25px;
+}
+
+#rights-and-policies #policies {
+  margin-left: calc(100% - 1013px);
+}
+
+#rights-and-policies #policies li {
+  padding: 10px 15px;
+}
+
+#rights-and-policies #rights,
+#rights-and-policies #rights p {
+  display: inline;
+  color: gray;
+}
+
+#rights-and-policies #policies,
+#rights-and-policies #policies ul,
+#rights-and-policies #policies li {
+  display: inline;
+  /* float: right; */
+}
+
+#rights-and-policies #policies li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#rights-and-policies #active-button {
+  border: 1px solid rgb(66, 201, 66);
+}
+
+#rights-and-policies #active-button:hover {
+  background-color: rgb(66, 201, 66);
+  color: #fff;
+}
+/* #endregion */

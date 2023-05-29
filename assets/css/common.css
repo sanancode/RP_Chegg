@@ -1,0 +1,44 @@
+* {
+  font-family: Palatino Linotype, Arial, Helvetica;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.special-font-size30 {
+  /* font olcusu 30 olan textler */
+  font-size: 35px;
+}
+
+.plan-card {
+  /*
+   esas sehifede abune olmaq ucun olan kart vizuallari ucun 
+    */
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0 10px 0 20px;
+  vertical-align: top;
+  display: inline-block;
+
+  height: 600px;
+  width: 30%;
+
+  position: relative;
+  text-align: center;
+}

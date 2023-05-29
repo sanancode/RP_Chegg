@@ -1,0 +1,235 @@
+#content {
+  width: 80%;
+  margin: 20px 10%;
+  position: relative;
+}
+
+/* #region get-started */
+
+#get-started__backg {
+  background-image: url("../images/get\ started\ background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  color: #fff;
+  padding: 100px;
+}
+
+#get-started__backg p {
+  font-size: 18px;
+}
+/* #endregion */
+
+/* #region plans */
+
+#plans h1:first-child {
+  text-align: center;
+}
+
+/* #region plan1 */
+#plan1 img {
+  position: relative;
+  top: 8%;
+}
+
+#new_and_improved {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 5px 5px;
+  font-size: 25px;
+  background-color: #eb6100;
+  color: #fff;
+  width: fit-content;
+  border-radius: 10px 0;
+}
+
+#new_and_improved:hover {
+  cursor: pointer;
+}
+
+#plan1__content {
+  position: relative;
+  top: 10%;
+
+  width: 90%;
+  margin-left: 5%;
+}
+
+#plan1__content p:first-child {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#plan1 .button_learnmore {
+  display: inline-block;
+  position: relative;
+  top: 8%;
+}
+
+/* #endregion */
+
+/* #region plan2 */
+#plan2 img {
+  position: relative;
+  top: 18%;
+}
+
+#plan2__content {
+  position: relative;
+  top: 20%;
+}
+
+#plan2__content p:first-child {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#plan2 .button_learnmore {
+  position: relative;
+  top: 20%;
+}
+
+/* #endregion */
+
+/* #region plan3 */
+#plan3 img {
+  position: relative;
+  top: 15%;
+}
+
+#plan3__content {
+  position: relative;
+  top: 15%;
+  left: 5%;
+  width: 90%;
+}
+
+#plan3__content p:first-child {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#plan3 .button_learnmore {
+  position: relative;
+  top: 15%;
+}
+/* #endregion */
+
+/* #region plan-price */
+#plan-price {
+  text-align: center;
+}
+/* #endregion */
+
+/* #endregion */
+
+/* #region customers */
+#customers #customer-header {
+  margin: 100px 0;
+}
+
+#customers h1 {
+  text-align: center;
+  color: #eb7100;
+  font-weight: bold;
+}
+/* #region study-tool */
+
+#study-tool {
+  width: 90%;
+  margin-left: 5%;
+}
+
+#study-tool-content {
+  display: inline-block;
+  position: relative;
+  top: -150px;
+  left: 100px;
+}
+
+#study-tool-content h2 {
+  font-size: 45px;
+}
+
+#study-tool-content p,
+#study-tool-content a {
+  font-size: 20px;
+}
+/* #endregion */
+
+/* #region save-up */
+#save-up {
+  margin-top: 100px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+#save-up-content {
+  display: inline-block;
+  position: relative;
+  top: -150px;
+  left: 100px;
+}
+
+#save-up-content h2 {
+  font-size: 45px;
+}
+
+#save-up-content p,
+#save-up-content a {
+  font-size: 20px;
+}
+
+#save-up img {
+  margin-left: 20%;
+}
+/* #endregion */
+
+/* #endregion */
+
+/* #region help-beyond */
+
+#help-beyond h1 {
+  text-align: center;
+}
+
+#help-beyond-content {
+  margin-left: 5%;
+}
+
+#btc-leftcard,
+#btc-rightcard {
+  margin: 0 10px;
+  text-align: center;
+  color: #fff;
+  vertical-align: top;
+  width: 45%;
+  height: 500px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 60px;
+}
+
+#btc-leftcard p,
+#btc-rightcard p {
+  font-size: x-large;
+}
+
+#btc-leftcard {
+  background: url(../images/leftcard.png);
+  background-size: cover;
+}
+
+#btc-rightcard {
+  background: url(../images/rightcard.png);
+  background-size: cover;
+}
+
+/* #endregion */
+
+/* #endregion */
